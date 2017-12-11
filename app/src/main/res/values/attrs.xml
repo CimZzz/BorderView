@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BorderView">
+        <!--格子数，默认4个-->
+        <attr name="boxCount" format="integer"/>
+        <!--格子是否为正（高度与宽度相等，以宽度值为准），默认为正-->
+        <attr name="boxShape" format="enum">
+            <!--正-->
+            <enum name="positive" value="0"/>
+            <!--非正-->
+            <enum name="irregular" value="1"/>
+        </attr>
+        <!--格子圆角值，默认为0-->
+        <attr name="boxRadius" format="dimension"/>
+        <!--格子宽度，默认为0-->
+        <attr name="boxWidth" format="dimension"/>
+        <!--格子高度，默认为0-->
+        <attr name="boxHeight" format="dimension"/>
+        <!--格子边框宽度，默认为10像素-->
+        <attr name="boxBorderWidth" format="dimension"/>
+        <!--格子边框颜色，默认为灰色-->
+        <attr name="boxBorderColor" format="color"/>
+        <!--格子激活时边框颜色，默认为橙色-->
+        <attr name="boxBorderColorActive" format="color"/>
+        <!--格子之间间隙，默认为6像素-->
+        <attr name="boxGap" format="dimension"/>
+        <!--根据格子数量自动调整格子尺寸，默认为否-->
+        <attr name="boxAutoSize" format="boolean"/>
+        <!--文字尺寸，默认为 40px-->
+        <attr name="textSize" format="dimension"/>
+        <!--文字颜色，默认为黑色-->
+        <attr name="textColor" format="color"/>
+        <!--游标颜色，默认为橙色-->
+        <attr name="cursorColor" format="color"/>
+        <!--游标宽度，默认为5像素-->
+        <attr name="cursorWidth" format="dimension"/>
+        <!--游标间隙，默认为5像素-->
+        <attr name="cursorGap" format="dimension"/>
+        <!--游标位置，默认为中心-->
+        <attr name="cursorGravity" format="enum">
+            <!--开始位置-->
+            <enum name="start" value="0"/>
+            <!--中心-->
+            <enum name="center" value="1"/>
+            <!--末尾位置-->
+            <enum name="end" value="2"/>
+        </attr>
+        <!--输入法设置-->
+        <attr name="inputType" format="enum">
+            <!--数字-->
+            <enum name="number" value="0"/>
+            <!--文本-->
+            <enum name="text" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
