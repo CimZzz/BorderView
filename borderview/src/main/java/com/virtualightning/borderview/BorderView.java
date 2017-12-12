@@ -144,7 +144,7 @@ public class BorderView extends View {
     public BorderView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
 
-        TypedArray ta = context.obtainStyledAttributes(attrs,R.styleable.BorderView);
+        TypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.BorderView);
         boxCount = ta.getInteger(R.styleable.BorderView_boxCount,boxCount);
         boxShape = ta.getInteger(R.styleable.BorderView_boxShape,boxShape);
         boxRadius = ta.getDimension(R.styleable.BorderView_boxRadius,boxRadius);

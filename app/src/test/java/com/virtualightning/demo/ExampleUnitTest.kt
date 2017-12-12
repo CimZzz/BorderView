@@ -1,4 +1,4 @@
-package com.virtualightning.borderview
+package com.virtualightning.demo
 
 import org.junit.Test
 
