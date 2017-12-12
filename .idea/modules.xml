@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BorderView.iml" filepath="$PROJECT_DIR$/BorderView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/borderview/borderview.iml" filepath="$PROJECT_DIR$/borderview/borderview.iml" />
     </modules>
   </component>
 </project>

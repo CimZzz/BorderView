@@ -14,6 +14,7 @@
         app:boxWidth="30dp"
         app:boxHeight="40dp"
         app:boxBorderWidth="1dp"
+        app:boxAutoSize="true"
         app:inputType="number"
         android:id="@+id/borderView"/>
 

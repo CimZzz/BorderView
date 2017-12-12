@@ -7,7 +7,6 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Rect;
 import android.graphics.RectF;
-import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.text.InputType;
 import android.util.AttributeSet;
@@ -16,12 +15,9 @@ import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.BaseInputConnection;
-import android.view.inputmethod.CompletionInfo;
-import android.view.inputmethod.CorrectionInfo;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
 import android.view.inputmethod.InputConnectionWrapper;
-import android.view.inputmethod.InputContentInfo;
 import android.view.inputmethod.InputMethodManager;
 
 import java.util.ArrayList;
@@ -33,8 +29,9 @@ import static android.view.inputmethod.EditorInfo.IME_ACTION_NONE;
 
 /**
  * Created by CimZzz(王彦雄) on 12/11/17.<br>
- * Since : 帮帮速递_第一版 <br>
- * Description : <br>
+ * Project Name : Virtual-Lightning BorderView<br>
+ * Since : BorderView_0.0.1<br>
+ * Description:<br>
  * 描述
  */
 public class BorderView extends View {
